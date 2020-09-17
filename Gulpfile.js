@@ -1,4 +1,5 @@
-var themename = 'tuktuk';
+var themename = 'YOUR_THEME_NAME';
+// YOUR_THEME_NAME is the name of the folder under 'themes' folder. i.e. twentynineteen
 
 var gulp = require('gulp'),
 	// Prepare and optimize code etc
@@ -62,7 +63,9 @@ gulp.task('javascript', function() {
 gulp.task('watch', function() {
 	browserSync.init({ 
 		open: 'external',
-		proxy: 'http://tuktuk2.local',
+		
+		// Since I used 'Flywheel by Local' to host my local wordpress site, so i need to paste the url here.
+		proxy: 'http://YOUR_SITE.local',
 		port: 8080
 	});
 //	gulp.watch([root + '**/*.css', root + '**/*.scss' ], ['css']);
