@@ -1,0 +1,24 @@
+{
+  "name": "tuktuk",
+  "version": "0.0.1",
+  "description": "Accessible WordPress theme utilizing flex layouts and modern development practices.",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tuk",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "browser-sync": "^2.26.12",
+    "gulp": "^4.0.2",
+    "gulp-image": "^6.2.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "postcss": "^7.0.34",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "jshint": "^2.12.0",
+    "node-sass": "^4.14.1"
+  }
+}
