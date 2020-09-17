@@ -15,3 +15,14 @@ But the packages are quite old. While running in Sep, 2020, meets so many incons
 I don't know where to find new ways to meet my needs, so I tried to repair it.
 
 It works just fine.
+
+## Usage
+
+#### Make sure you have installed Node.js.
+
+1. Under 'themes' folder of Wordpress site, create a new folder, name it what ever you want, by convention, I name it 'gulp-dev'.
+1. Put `Gulpfile.js` and `package.json` into the folder.
+1. Change placeholders near `line 1` and `line 68` of  `Gulpfile.js` 
+1. Go to the folder in terminal.
+1. `npm install`
+1. `gulp`
